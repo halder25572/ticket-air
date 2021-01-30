@@ -31,90 +31,90 @@
 
     <!--Booking Section-->
     <main id="myButton" class="main-content container">
-        <div class="booking-form">
-            <h3>Booking Flights</h3>
-            <div class="input-group">
-                <label for="">Flying From</label>
-                <input class="inp-style" type="text" name="" placeholder="Dhake, Bangladesh">
-            </div>
-            <div class="input-group">
-                <label for="">Flying To</label>
-                <input class="inp-style" type="text" name="" placeholder="New York, United States">
-            </div>
-            <div class="inputs">
-                <div class="input-group">
-                    <label" for="">Departure</label>
-                    <input class="inp-style form-controle" type="date" name="">
-                </div>
-                <div class="input-group">
-                    <label for="">Return</label>
-                    <input class="inp-style" type="date" name="">
-                </div>
-            </div>
-            <div id="myButton" class="input-group f-class">
-                <div>
-                    <label id="firstClass-total" for="">First Class ($150)</label>
-                    <input id="firstClass-count" class="inp-style inp-width" type="number" name="" value="1">
-                    <button onclick="handlePriceChange('firstClass', true)" id="firstClass-incress" class="btn btn-default text-primary"><i class="fas fa-plus"></i></button>
-                    <button onclick="handlePriceChange('firstClass', false)" id="firstClass-decrease" class="btn btn-default text-primary"><i class="fas fa-minus"></i></button>
-                </div>
-                <!-- <div class="plus-minus-btn">
-                    
-                </div> -->
-            </div>
+		
+			<div class="booking-form">
+				<h3 class="text-center">Booking Flights</h3>
+				<div class="input-group">
+					<label for="">Flying From</label>
+					<input class="inp-style" type="text" name="" placeholder="Dhake, Bangladesh">
+				</div>
+				<div class="input-group">
+					<label for="">Flying To</label>
+					<input class="inp-style" type="text" name="" placeholder="New York, United States">
+				</div>
+				<div class="inputs">
+					<div class="input-group">
+						<label" for="">Departure</label>
+						<input class="inp-style form-controle" type="date" name="">
+					</div>
+					<div class="input-group">
+						<label for="">Return</label>
+						<input class="inp-style" type="date" name="">
+					</div>
+				</div>
+				<div id="myButton" class="input-group f-class">
+					<div>
+						<label id="firstClass-total" for="">First Class ($150)</label>
+						<input id="firstClass-count" class="inp-style inp-width" type="number" name="" value="1">
+						<button onclick="handlePriceChange('firstClass', true)" id="firstClass-incress" class="btn btn-default text-primary"><i class="fas fa-plus"></i></button>
+						<button onclick="handlePriceChange('firstClass', false)" id="firstClass-decrease" class="btn btn-default text-primary"><i class="fas fa-minus"></i></button>
+					</div>
+					<!-- <div class="plus-minus-btn">
+						
+					</div> -->
+				</div>
 
-            <div class="input-group f-class">
-                <div>
-                    <label id="case-total" for="">Economy ($100)</label>
-                    <input id="case-count" class="inp-style inp-width" type="number" value="1">
-                    <button onclick="handlePriceChange('case', true)" id="case-increase" class="btn btn-default text-primary"><i
-                    class="fas fa-plus"></i></button>
+				<div class="input-group f-class">
+					<div>
+						<label id="case-total" for="">Economy ($100)</label>
+						<input id="case-count" class="inp-style inp-width" type="number" value="1">
+						<button onclick="handlePriceChange('case', true)" id="case-increase" class="btn btn-default text-primary"><i
+						class="fas fa-plus"></i></button>
 
-                    <button onclick="handlePriceChange('case', false)" id="case-decrease" class="btn btn-default text-primary"><i
-                    class="fas fa-minus"></i></button>
-                </div>
-                <!-- <div class="plus-minus-btn">
+						<button onclick="handlePriceChange('case', false)" id="case-decrease" class="btn btn-default text-primary"><i
+						class="fas fa-minus"></i></button>
+					</div>
+					<!-- <div class="plus-minus-btn">
 
-                </div> -->
-            </div>
-            <div class="calculations">
-                <div class="amount">
-                    <div class="left">
-                        <p>Subtotal</p>
-                    </div>
-                    <div class="right">
-                        <p id="total-price">$500</p>
-                    </div>
-                </div>
+					</div> -->
+				</div>
+				<div class="calculations">
+					<div class="amount">
+						<div class="left">
+							<p>Subtotal</p>
+						</div>
+						<div class="right">
+							<p id="total-price">$500</p>
+						</div>
+					</div>
 
-                <div class="amount">
-                    <div class="left">
-                        <p>Charge 10% VAT</p>
-                    </div>
-                    <div class="right">
-                        <p id="tax-amount">$50</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="amount">
-                    <div class="left">
-                        <h4>Total</h4>
-                    </div>
-                    <div class="right">
-                        <p id="all-total">$550</p>
-                    </div>
-                </div>
-            </div>
-            <button type="submit" onclick="myFunction()" class="btn-style">Book Now</button>
-        </div>
-    </main>
-
-        <div class="booking-content">
-            <h1>discover <br> around the world</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Provident voluptatibus quam fuga laborumalias
-                veniam libero autem quasi maxime ullam vero nama imi dolor, architecto ab facilis eaque deserunt nobise
-                voluptatibus quam</p>
-        </div>
+					<div class="amount">
+						<div class="left">
+							<p>Charge 10% VAT</p>
+						</div>
+						<div class="right">
+							<p id="tax-amount">$50</p>
+						</div>
+					</div>
+					<hr>
+					<div class="amount">
+						<div class="left">
+							<h4>Total</h4>
+						</div>
+						<div class="right">
+							<p id="all-total">$550</p>
+						</div>
+					</div>
+				</div>
+				<button type="submit" onclick="myFunction()" class="btn-style">Book Now</button>
+				
+			</div>
+			<div class="booking-content">
+				<h1>discover <br> around the world</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Provident voluptatibus quam fuga laborumalias
+					veniam libero autem quasi maxime ullam vero nama imi dolor, architecto ab facilis eaque deserunt nobise
+					voluptatibus quam</p>
+			</div>
         </section>
 
         <!--Thank You-->
